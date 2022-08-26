@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "strict": false,
+        "target": "ESNext",
+        "allowJs": false,
+        "sourceMap": true,
+        "outDir": "dist",
+        "declaration": true,
+        "rootDir": "src",
+        "skipLibCheck": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "scripts/",
+        "**/*.d.ts",
+        "**/*.spec.ts"
+    ]
+}
