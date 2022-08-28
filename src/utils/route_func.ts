@@ -27,12 +27,12 @@ function getActionList(): string[] {
  * 根据 action 获取 方法列表
  * @returns 
  */
-function getMethodList(action: string): { [action: string]: string[]} {
+function getMethodMap(action: string): { [action: string]: string[]} {
     return {}
 }
 
 export {
     getApplicationName,
     getActionList,
-    getMethodList
+    getMethodMap
 }
