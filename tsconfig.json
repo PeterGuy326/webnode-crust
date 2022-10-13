@@ -10,7 +10,8 @@
         "outDir": "dist",
         "declaration": true,
         "rootDir": "src",
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        "types": ["node"]
     },
     "include": [
         "src/**/*"

@@ -1,9 +1,10 @@
-import { Page } from "../base/page";
+import { Page } from "../base/Page";
 
 export class TestPage extends Page {
     
-    map = {
-        test: {
+    constructor() {
+        super()
+        this.map.test = {
             test: 'test'
         }
     }
