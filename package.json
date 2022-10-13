@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@types/koa-router": "^7.4.4",
     "@types/lodash": "^4.14.186",
     "koa": "^2.13.4",
     "koa-router": "^12.0.0",
